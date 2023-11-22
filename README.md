@@ -1,8 +1,8 @@
 # md2xlsx
 
-A BANNER WILL BE PUT HERE:)
-
 <div align="center">
+
+![md2sheet logo](docs/img/md2sheet-logo.svg)
 
 [![Pylint](https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml)
 
@@ -12,11 +12,52 @@ A BANNER WILL BE PUT HERE:)
 
 ## Description
 
-TODO
+Convert structed markdown content into sheet(XLSX).
 
 ## Is this for me?
 
-TODO
+If you want convert a markdown like this:
+
+```md
+# Comics
+
+## Detective Comics (DC)
+
+### Batman Family
+
+#### Batman
+
+...
+
+#### Catwoman
+
+...
+
+## Marvel Comics
+
+### Avengers
+
+#### Iron Man
+
+...
+
+#### Captain America
+
+...
+```
+
+into sheet like this:
+|h1|h2|h3|h4|h5|
+|--|--|--|--|--|
+|Comics|Detective Comics (DC)|BatmanFamily|Batman|...|
+|Comics|Detective Comics (DC)|BatmanFamily|Cat woman|...|
+|Comics|Marvel Comics|Avengers|Iron Man|...|
+|Comics|Marvel Comics|Avengers|Captain America|...|
+
+then you are on the right place.
+
+💡Futhuremore, you can use office tools to modifiy the sheet according to your preferences:
+![use office tools to modify sheet](docs/img/modifed-with-office-tools.png)
 
 ## Usage
 
