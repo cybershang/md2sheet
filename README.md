@@ -1,9 +1,7 @@
 # md2xlsx
 
 <p align="center">
-
-![md2sheet logo](docs/img/md2sheet-logo.svg)
-
+  <img src="https://github.com/shangcode/md2sheet/blob/main/docs/img/md2sheet-logo.svg" />
 </p>
 
 <p align="center">
@@ -12,7 +10,7 @@
 <a href="https://www.bestpractices.dev/projects/8105"><img src="https://www.bestpractices.dev/projects/8105/badge"></a>
 </p>
 
----
+
 
 ## Description
 
@@ -24,29 +22,18 @@ If you want convert a markdown like this:
 
 ```md
 # Comics
-
 ## Detective Comics (DC)
-
 ### Batman Family
-
 #### Batman
-
 ...
-
 #### Catwoman
-
 ...
 
 ## Marvel Comics
-
 ### Avengers
-
 #### Iron Man
-
 ...
-
 #### Captain America
-
 ...
 ```
 
