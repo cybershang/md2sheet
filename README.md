@@ -1,12 +1,16 @@
 # md2xlsx
 
-<div align="center">
+<p align="center">
 
 ![md2sheet logo](docs/img/md2sheet-logo.svg)
 
-[![Pylint](https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml)
+</p>
 
-</div>
+<p align="center">
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"</a>
+<a href="https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml"><img src="https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml/badge.svg?branch=main"></a>
+<a href="https://www.bestpractices.dev/projects/8105"><img src="https://www.bestpractices.dev/projects/8105/badge"></a>
+</p>
 
 ---
 
