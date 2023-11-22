@@ -1,6 +1,11 @@
 """Module provide the ability to convert markdown into xlsx sheet."""
+import sys
+import os
 import markdown_to_json
 import pandas as pd
+import typer
+
+app = typer.Typer()
 
 
 def flatten_structure(key, value, result, current_level):
@@ -32,10 +37,18 @@ def falten_nest_dict(nested_dict: dict) -> dict:
     return result
 
 
-def main():
-    """Main as the entry point"""
-    with open("./input.md", "r", encoding="utf-8") as f:
-        md_text = f.read()
+@app.command()
+def md2xlsx(
+    in_file: str = typer.Argument(..., help="Enter the markdown filepath"),
+    out_file: str = typer.Argument(..., help="Enter the xlsx filepath"),
+):
+    """Convert markdown into xlsx sheet."""
+    if os.path.exists(in_file):
+        with open(in_file, "r", encoding="utf-8") as f:
+            md_text = f.read()
+    else:
+        print("input file not exist!")
+        sys.exit(1)
 
     flat_dict = falten_nest_dict(markdown_to_json.dictify(md_text))
     df = pd.DataFrame(
@@ -47,8 +60,8 @@ def main():
             "h5": flat_dict["h5"],
         }
     )
-    df.to_excel("./output.xlsx", index=False)
+    df.to_excel(out_file, index=False)
 
 
 if __name__ == "__main__":
-    main()
+    app()
