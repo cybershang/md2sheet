@@ -11,9 +11,8 @@
 </p>
 
 
-## Description
-
 Convert structed markdown content into sheet(XLSX).
+
 
 ## Is this for me?
 
@@ -59,6 +58,21 @@ then you are on the right place.
 
 💡Futhuremore, you can use office tools to modifiy the sheet according to your preferences:
 ![use office tools to modify sheet](https://github.com/shangcode/md2sheet/raw/main/docs/img/modifed-with-office-tools.png)
+
+## Requirements
+Python 3.11+
+
+The md2Sheet stands on the shoulders of giants:
+
+- [markdown-to-json](https://github.com/njvack/markdown-to-json/)
+- [pandas](https://pandas.pydata.org/)
+- [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
+- [Typer](https://typer.tiangolo.com/)
+
+## Installation
+```console
+pip install md2sheet
+```
 
 ## Usage
 
