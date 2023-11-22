@@ -1,16 +1,14 @@
 <p align="center">
-  <img src="https://github.com/shangcode/md2sheet/blob/main/docs/img/md2sheet-logo.svg" />
+
+<img src="https://github.com/shangcode/md2sheet/raw/main/docs/img/md2sheet-logo.svg"/>
+
 </p>
 
 <p align="center">
-<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"</a>
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
 <a href="https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml"><img src="https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml/badge.svg?branch=main"></a>
 <a href="https://www.bestpractices.dev/projects/8105"><img src="https://www.bestpractices.dev/projects/8105/badge"></a>
 </p>
-
-
-
-## Description
 
 Convert structed markdown content into sheet(XLSX).
 
@@ -46,7 +44,22 @@ into sheet like this:
 then you are on the right place.
 
 💡Futhuremore, you can use office tools to modifiy the sheet according to your preferences:
-![use office tools to modify sheet](docs/img/modifed-with-office-tools.png)
+![use office tools to modify sheet](https://github.com/shangcode/md2sheet/raw/main/docs/img/modifed-with-office-tools.png)
+
+## Requirements
+Python 3.11+
+
+The md2Sheet stands on the shoulders of giants:
+
+- [markdown-to-json](https://github.com/njvack/markdown-to-json/)
+- [pandas](https://pandas.pydata.org/)
+- [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
+- [Typer](https://typer.tiangolo.com/)
+
+## Installation
+```console
+pip install md2sheet
+```
 
 ## Usage
 
