@@ -10,9 +10,7 @@
 <a href="https://www.bestpractices.dev/projects/8105"><img src="https://www.bestpractices.dev/projects/8105/badge"></a>
 </p>
 
-
 Convert structed markdown content into sheet(XLSX).
-
 
 ## Is this for me?
 
@@ -20,29 +18,18 @@ If you want convert a markdown like this:
 
 ```md
 # Comics
-
 ## Detective Comics (DC)
-
 ### Batman Family
-
 #### Batman
-
 ...
-
 #### Catwoman
-
 ...
 
 ## Marvel Comics
-
 ### Avengers
-
 #### Iron Man
-
 ...
-
 #### Captain America
-
 ...
 ```
 
