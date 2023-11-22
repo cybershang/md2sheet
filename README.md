@@ -1,8 +1,6 @@
-# md2xlsx
-
 <p align="center">
 
-![md2sheet logo](https://github.com/shangcode/md2sheet/raw/main/docs/img/md2sheet-logo.svg)
+<img src="https://github.com/shangcode/md2sheet/raw/main/docs/img/md2sheet-logo.svg"/>
 
 </p>
 
@@ -12,8 +10,6 @@
 <a href="https://www.bestpractices.dev/projects/8105"><img src="https://www.bestpractices.dev/projects/8105/badge"></a>
 </p>
 
-
----
 
 ## Description
 
