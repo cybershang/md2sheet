@@ -1,5 +1,3 @@
-# md2xlsx
-
 <p align="center">
   <img src="https://github.com/shangcode/md2sheet/blob/main/docs/img/md2sheet-logo.svg" />
 </p>
