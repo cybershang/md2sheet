@@ -7,7 +7,8 @@ import pandas as pd
 import typer
 from typing_extensions import Annotated
 
-__version__ = "0.1.0"
+__version__ = "0.0a1"
+
 app = typer.Typer()
 
 
@@ -50,9 +51,7 @@ def output_version():
 def md2xlsx(
     in_file: str = typer.Argument(default=None, help="Enter the markdown filepath"),
     out_file: str = typer.Argument(default=None, help="Enter the xlsx filepath"),
-    version: Annotated[
-        Optional[bool], typer.Option("--version")
-    ] = None,
+    version: Annotated[Optional[bool], typer.Option("--version")] = None,
 ):
     """Convert markdown into xlsx sheet."""
     if version:
@@ -77,7 +76,3 @@ def md2xlsx(
             }
         )
         df.to_excel(out_file, index=False)
-
-
-if __name__ == "__main__":
-    app()
