@@ -7,7 +7,7 @@ import pandas as pd
 import typer
 from typing_extensions import Annotated
 
-__version__ = "0.0a1"
+__version__ = "0.1.1"
 
 app = typer.Typer()
 

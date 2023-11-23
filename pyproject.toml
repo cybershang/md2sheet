@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "md2sheet"
-version = "0.1.0"
+version = "0.1.1"
 description = "A cli tool for convert markdown into sheet(xlsx)."
 authors = ["Yingjie Shang <me@shangcode.cn>"]
 license = "MIT"
