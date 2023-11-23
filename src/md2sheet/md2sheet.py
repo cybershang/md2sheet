@@ -31,7 +31,7 @@ def add_to_result(result, keys, value):
     result[f"h{len(keys) + 1}"].append(value)
 
 
-def falten_nest_dict(nested_dict: dict) -> dict[str, list[str]]:
+def falten_nest_dict(nested_dict: dict):
     """Convert nested dict into flat structure."""
     result = {f"h{i}": [] for i in range(1, 6 + 1)}
 
