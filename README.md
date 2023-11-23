@@ -12,6 +12,7 @@
 
 <p align="center">
 <a href="https://pypi.org/project/md2sheet/"><img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/md2sheet"></a>
+<a href="https://md2sheet.slack.com/"><img alt="Static Badge" src="https://img.shields.io/badge/slack---?style=social&logo=slack"></a>
 </p>
 
 <p align="center">
@@ -90,3 +91,7 @@ md2xlsx [OPTIONS] IN_FILE OUT_FILE
 ## License
 
 This project is licensed under the terms of the MIT license.
+
+## Contract
+<a href="https://md2sheet.slack.com"><img alt="Static Badge" src="https://img.shields.io/badge/slack---?style=for-the-badge&logo=slack"></a>
+
