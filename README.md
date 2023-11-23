@@ -62,7 +62,6 @@ Python 3.11+
 The md2Sheet stands on the shoulders of giants:
 
 - [markdown-to-json](https://github.com/njvack/markdown-to-json/)
-- [pandas](https://pandas.pydata.org/)
 - [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
 - [Typer](https://typer.tiangolo.com/)
 
