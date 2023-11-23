@@ -5,11 +5,20 @@
 </p>
 
 <p align="center">
+<a href="https://pypi.org/project/md2sheet/"><img alt="PyPI - Version" src="https://img.shields.io/pypi/v/md2sheet"></a>
+<a href="https://pypistats.org/packages/md2sheet"><img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dw/md2sheet"></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
-<a href="https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml"><img src="https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml/badge.svg?branch=main"></a>
-<a href="https://www.bestpractices.dev/projects/8105"><img src="https://www.bestpractices.dev/projects/8105/badge"></a>
 </p>
 
+<p align="center">
+<a href="https://pypi.org/project/md2sheet/"><img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/md2sheet"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml"><img src="https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml/badge.svg?branch=main"></a>
+<a href="https://github.com/shangcode/md2sheet/actions/workflows/scorecard.yml"><img src="https://github.com/shangcode/md2sheet/actions/workflows/scorecard.yml/badge.svg?branch=main"></a>
+<a href="https://www.bestpractices.dev/projects/8105"><img src="https://www.bestpractices.dev/projects/8105/badge"></a>
+</p>
 Convert structed markdown content into sheet(XLSX).
 
 ## Is this for me?
