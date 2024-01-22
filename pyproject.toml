@@ -2,7 +2,7 @@
 name = "md2sheet"
 version = "0.2.2"
 description = "A cli tool for convert markdown into sheet(xlsx)."
-authors = ["Yingjie Shang <me@shangcode.cn>"]
+authors = ["Yingjie Shang <dev@yingjie.space>"]
 license = "MIT"
 readme = "README.md"
 keywords = [
@@ -25,8 +25,8 @@ classifiers = [
     'Topic :: Text Processing :: Markup :: Markdown',
     'Topic :: Utilities',
 ]
-homepage = "https://github.com/shangcode/md2sheet"
-repository = "https://github.com/shangcode/md2sheet"
+homepage = "https://github.com/cybershang/md2sheet"
+repository = "https://github.com/cybershang/md2sheet"
 
 [tool.poetry.scripts]
 md2sheet = "md2sheet.md2sheet:app"
