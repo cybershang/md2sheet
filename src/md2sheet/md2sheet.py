@@ -7,7 +7,7 @@ import typer
 from typing_extensions import Annotated
 from openpyxl import Workbook
 
-__version__ = "0.2.1"
+__version__ = "0.2.2"
 
 app = typer.Typer()
 
