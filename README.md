@@ -18,9 +18,7 @@
 <p align="center">
 <a href="https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml"><img src="https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml/badge.svg?branch=main"></a>
 <a href="https://github.com/shangcode/md2sheet/actions/workflows/scorecard.yml"><img src="https://github.com/shangcode/md2sheet/actions/workflows/scorecard.yml/badge.svg?branch=main"></a>
-<a href="https://www.bestpractices.dev/projects/8105"><img src="https://www.bestpractices.dev/projects/8105/badge"></a>
 <a href="https://securityscorecards.dev/viewer/?uri=github.com/shangcode/md2sheet"><img src="https://api.securityscorecards.dev/projects/github.com/shangcode/md2sheet/badge"></a>
-
 </p>
 Convert structed markdown content into sheet(XLSX).
 
