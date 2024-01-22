@@ -3,11 +3,11 @@ import sys
 import os
 from typing import Optional
 import markdown_to_json
-import pandas as pd
 import typer
 from typing_extensions import Annotated
+from openpyxl import Workbook
 
-__version__ = "0.0a1"
+__version__ = "0.2.2"
 
 app = typer.Typer()
 
@@ -31,7 +31,7 @@ def add_to_result(result, keys, value):
     result[f"h{len(keys) + 1}"].append(value)
 
 
-def falten_nest_dict(nested_dict: dict) -> dict:
+def falten_nest_dict(nested_dict: dict):
     """Convert nested dict into flat structure."""
     result = {f"h{i}": [] for i in range(1, 6 + 1)}
 
@@ -45,6 +45,15 @@ def output_version():
     """Output version number"""
     print(f"md2sheet version: {__version__}")
     raise typer.Exit(0)
+
+
+def write_data(ws, row, col_num, data):
+    """write data into column"""
+    if isinstance(data, list):
+        for i, element in enumerate(data, start=row):
+            write_data(ws, i, col_num, element)
+    else:
+        ws.cell(row=row, column=col_num, value=data)
 
 
 @app.command()
@@ -66,13 +75,12 @@ def md2xlsx(
             sys.exit(1)
 
         flat_dict = falten_nest_dict(markdown_to_json.dictify(md_text))
-        df = pd.DataFrame(
-            {
-                "h1": flat_dict["h1"],
-                "h2": flat_dict["h2"],
-                "h3": flat_dict["h3"],
-                "h4": flat_dict["h4"],
-                "h5": flat_dict["h5"],
-            }
-        )
-        df.to_excel(out_file, index=False)
+
+        workbook = Workbook()
+        ws = workbook.active
+
+        for key, value in flat_dict.items():
+            col_num = int(key[1])
+            write_data(ws, 1, col_num, value)
+
+        workbook.save(out_file)

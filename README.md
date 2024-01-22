@@ -12,12 +12,14 @@
 
 <p align="center">
 <a href="https://pypi.org/project/md2sheet/"><img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/md2sheet"></a>
+<a href="https://md2sheet.slack.com/"><img alt="Static Badge" src="https://img.shields.io/badge/slack---?style=social&logo=slack"></a>
 </p>
 
 <p align="center">
 <a href="https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml"><img src="https://github.com/shangcode/md2xlsx/actions/workflows/pylint.yml/badge.svg?branch=main"></a>
 <a href="https://github.com/shangcode/md2sheet/actions/workflows/scorecard.yml"><img src="https://github.com/shangcode/md2sheet/actions/workflows/scorecard.yml/badge.svg?branch=main"></a>
 <a href="https://www.bestpractices.dev/projects/8105"><img src="https://www.bestpractices.dev/projects/8105/badge"></a>
+<a href="https://securityscorecards.dev/viewer/?uri=github.com/shangcode/md2sheet"><img src="https://api.securityscorecards.dev/projects/github.com/shangcode/md2sheet/badge"></a>
 </p>
 Convert structed markdown content into sheet(XLSX).
 
@@ -61,7 +63,6 @@ Python 3.11+
 The md2Sheet stands on the shoulders of giants:
 
 - [markdown-to-json](https://github.com/njvack/markdown-to-json/)
-- [pandas](https://pandas.pydata.org/)
 - [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
 - [Typer](https://typer.tiangolo.com/)
 
@@ -90,3 +91,7 @@ md2xlsx [OPTIONS] IN_FILE OUT_FILE
 ## License
 
 This project is licensed under the terms of the MIT license.
+
+## Contract
+<a href="https://md2sheet.slack.com"><img alt="Static Badge" src="https://img.shields.io/badge/slack---?style=for-the-badge&logo=slack"></a>
+
