@@ -33,7 +33,7 @@ md2sheet = "md2sheet.md2sheet:app"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-typer = {extras = ["all"], version = "^0.9.0"}
+typer = {extras = ["all"], version = ">=0.9,<0.11"}
 markdown-to-json = "^2.1.0"
 pylint = "^3.0.2"
 openpyxl = "^3.1.2"
